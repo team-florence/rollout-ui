@@ -6,7 +6,7 @@ h2.font-semibold.text-xl.text-gray-500.pt-12
 
 .w-8.h-1.bg-gray-300.my-10
 
-form.p-6.bg-gray-100.max-w-lg.w-full.text-sm.rounded-sm action=feature_path(@feature.name) method='POST'
+form.p-6.bg-gray-100.w-full.text-sm.rounded-sm action=feature_path(@feature.name) method='POST'
   .mb-5
     label.block.text-gray-500.mb-2(for='description') Description
     input.appearance-none.border.rounded-sm.w-full.py-2.px-4.text-gray-600.leading-relaxed.bg-white(
@@ -49,7 +49,7 @@ form.p-6.bg-gray-100.max-w-lg.w-full.text-sm.rounded-sm action=feature_path(@fea
       id='users'
       value=@feature.users.join(', ')
       class='hover:border-gray-500'
-      rows='2'
+      rows='15'
     )
       = @feature.users.join(', ')
 
