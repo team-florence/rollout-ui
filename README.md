@@ -1,4 +1,4 @@
-# Rollout::UI
+# Rollout::UI - Florence forked version (removed 100 user limit when updating user IDs)
 
 Minimalist UI for the [rollout](https://github.com/fetlife/rollout) gem that
 you can just mount as a Rack app and it will just work.
